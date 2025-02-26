@@ -16,7 +16,7 @@
                 alert("Username is required");
                 event.preventDefault();
                 return false;
-            }
+            } 
 
             // Password validation
             var password = document.getElementById('password').value;

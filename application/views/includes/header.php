@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"><i class="fas fa-align-left"></i></button>
             <a class="navbar-brand" href="index.html">
-                <img class="img-fluid" src="<?php echo base_url(); ?>themes/images/logo.png" alt="logo">
+                <img class="img-fluid" src="<?php echo base_url(); ?>themes/images/logo.jpeg" alt="logo">
             </a>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -19,7 +19,7 @@
                                             <li><a href="" target="_blank">Commodity Daily Prices</a></li>
                                             <li><a href="" target="_blank">Pesticide Information</a></li>
                                             <li><a href="" target="_blank">Pesticide Products</a></li>
-                                        </ul>
+                                        </ul> 
                                     </div>
                                     <div class="col-sm-6 col-lg-4">
                                         <h6 class="mb-3 nav-title">Agri Dealers</h6>

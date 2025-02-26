@@ -17,7 +17,7 @@
                 return false;
             }
             return true;
-        }
+        } 
     </script>
 </head>
 

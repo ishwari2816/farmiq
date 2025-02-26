@@ -13,7 +13,7 @@ class Buyer_Dashboard extends CI_Controller
 		if (null === $this->session->userdata('username')) {
 			redirect('admin_panel/auth/login');
 		}
-	}
+	} 
 
 	public function index()
 	{

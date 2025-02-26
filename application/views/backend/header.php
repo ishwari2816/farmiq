@@ -25,7 +25,7 @@
     <link href="<?php echo base_url(); ?>lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="<?php echo base_url(); ?>css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>css/bootstrap.min.css" rel="stylesheet"> 
 
     <!-- Template Stylesheet -->
     <link href="<?php echo base_url(); ?>css/style.css" rel="stylesheet">
@@ -107,6 +107,80 @@
             background-color: #FF5733;
             color: white;
         }
+        <style>
+            /* Container for the table */
+            .Table {
+                width: 80%;
+                margin: 20px auto;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+            }
+
+            table {
+                width: 95%;
+                margin-top: 10px;
+                margin-left: 25px;
+                border-collapse: collapse;
+            }
+
+            /* Header styles */
+            thead {
+                background-color: #f4f4f4;
+                font-weight: bold;
+            }
+
+            th {
+                padding: 12px;
+                text-align: left;
+                color: black;
+                border-bottom: 2px solid #ddd;
+                background-color: green;
+            }
+
+            /* Body styles */
+            td {
+                padding: 12px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+
+            /* Row styles */
+            tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+
+            tr:hover {
+                background-color: #f1f1f1;
+            }
+
+            /* Image column styling */
+            td img {
+                max-width: 50px;
+                max-height: 50px;
+                border-radius: 5px;
+                object-fit: cover;
+            }
+
+            /* Action button styles */
+            td:last-child {
+                text-align: center;
+            }
+
+            td:last-child button {
+                padding: 8px 16px;
+                background-color: #007BFF;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            td:last-child button:hover {
+                background-color: #0056b3;
+            }
+        </style>
     </style>
 </head>
 

@@ -11,7 +11,7 @@
     right: 45px;
     bottom: 45px;
     z-index: 99;
-}
+}   
 
 
 /*** Spinner ***/
@@ -20,7 +20,7 @@
     visibility: hidden;
     transition: opacity .5s ease-out, visibility 0s linear .5s;
     z-index: 99999;
-}
+}   
 
 #spinner.show {
     transition: opacity .5s ease-out, visibility 0s linear 0s;

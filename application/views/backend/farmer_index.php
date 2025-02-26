@@ -18,7 +18,7 @@
         padding: 12px;
         text-align: left;
         border-bottom: 1px solid #ddd;
-    }
+    } 
 
     .Table th {
         background-color: #007bff;

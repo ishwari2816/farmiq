@@ -20,7 +20,7 @@ class Location_model extends CI_Model
         $this->db->limit($limit, $start);
         $query = $this->db->get();
         return $query->result();
-    }
+    } 
     
 
     public function count_all_items() {

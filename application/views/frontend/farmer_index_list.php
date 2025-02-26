@@ -1,7 +1,7 @@
 <div class="main-content">
     <div class="container mt-5">
         <h2>Market Rates Details List</h2>
-        <a href="<?php echo site_url('admin_panel/main/add'); ?>" class="btn btn-primary float-end mb-3">Add New Entry</a>
+        <!-- <a href="<?php //echo site_url('admin_panel/main/add'); ?>" class="btn btn-primary float-end mb-3">Add New Entry</a> -->
         <table class="table table-bordered">
             <thead>
                 <tr>

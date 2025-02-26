@@ -28,4 +28,4 @@
     <div class="pagination-links">
         <?php echo $pagination; ?>
     </div>
-</div>
+</div> 

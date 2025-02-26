@@ -11,7 +11,9 @@ class Buyer_Dashboard extends CI_Controller
 		$this->load->model('User_model');
 		$this->load->model('Visitor_model');
 		if (null === $this->session->userdata('username')) {
-			redirect('admin_panel/auth/login');
+			redirect('admin_panel/auth/login'); 
+
+			
 		}
 	}
 
@@ -22,7 +24,7 @@ class Buyer_Dashboard extends CI_Controller
         $count = $this->Visitor_model->get_count();
         $data['visitor_count'] = $count;
         $this->load->view('backend/header');
-        $this->load->view('backend/buyer_index', $data);
+        $this->load->view('backend/buyer_dashboard', $data);
 		$this->load->view('backend/footer');
 	}
 

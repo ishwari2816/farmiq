@@ -13,7 +13,7 @@
                     </ul>
                 </div>
             </div>
-            <hr class="my-4 my-sm-5 pb-0">
+            <hr class="my-4 my-sm-5 pb-0"> 
         </div>
     </div>
     <div class="container">

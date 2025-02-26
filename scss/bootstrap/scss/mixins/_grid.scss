@@ -10,7 +10,7 @@
   margin-top: calc(var(--#{$variable-prefix}gutter-y) * -1); // stylelint-disable-line function-disallowed-list
   margin-right: calc(var(--#{$variable-prefix}gutter-x) / -2); // stylelint-disable-line function-disallowed-list
   margin-left: calc(var(--#{$variable-prefix}gutter-x) / -2); // stylelint-disable-line function-disallowed-list
-}
+} 
 
 @mixin make-col-ready($gutter: $grid-gutter-width) {
   // Add box sizing if only the grid is loaded

@@ -15,7 +15,7 @@
             height: 400px;
             border: 1px solid #ccc;
             background-color: white;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1); 
         }
         #chatbox-header {
             background: #333;

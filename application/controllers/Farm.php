@@ -15,4 +15,4 @@ class Farm extends CI_Controller {
 		$this->load->view('frontend/api');
 		$this->load->view('includes/footer');
 	}
-}
+}  

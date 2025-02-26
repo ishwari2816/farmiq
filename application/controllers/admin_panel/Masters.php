@@ -14,7 +14,7 @@ class Masters extends CI_Controller
 		if (null === $this->session->userdata('username')) {
 			redirect('admin_panel/auth/login');
 		}
-	}
+	} 
 
 	public function index($page = 1)
 	{

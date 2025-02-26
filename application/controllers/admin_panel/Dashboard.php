@@ -12,7 +12,7 @@ class Dashboard extends CI_Controller
 		$this->load->model('Visitor_model');
 		if (null === $this->session->userdata('username')) {
 			redirect('admin_panel/auth/login');
-		}
+		} 
 	}
 
 	public function index()
@@ -20,7 +20,7 @@ class Dashboard extends CI_Controller
 		if ($this->session->userdata('type') == 'Farmer') {
 			redirect('admin_panel/farmer_dashboard');
 		}elseif ($this->session->userdata('type') == 'Buyer') {
-			redirect('admin_panel/buyer/dashboard');
+			redirect('admin_panel/buyer_dashboard');
 		}elseif ($this->session->userdata('type') == 'Customer'){
 			redirect('admin_panel/customer/dashboard');
 		}elseif ($this->session->userdata('type') == 'admin'){

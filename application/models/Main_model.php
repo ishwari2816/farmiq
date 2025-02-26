@@ -14,7 +14,7 @@ class Main_model extends CI_Model
         $this->db->group_by('taluka');
         $query = $this->db->get();
         return $query->result();  // Return the results as an array of objects
-    }
+    } 
 
     public function get_markets_by_taluka($taluka_name) {
         $this->db->select('market');

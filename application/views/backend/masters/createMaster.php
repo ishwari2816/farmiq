@@ -23,7 +23,7 @@
         </div>
     </div>
 </div>
-<script>
+<script> 
     document.getElementById('createItemForm').addEventListener('submit', function(event) {
         var name = document.getElementById('name').value;
         if (name.trim() === '') {

@@ -19,7 +19,7 @@ class Item_model extends CI_Model
         $this->db->limit($limit, $offset);
         $query = $this->db->get('items');
         return $query->result();
-    }
+    } 
 
 
     public function count_all_items()

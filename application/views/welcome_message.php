@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		background-color: transparent;
 		font-weight: normal;
 		text-decoration: none;
-	}
+	} 
 
 	a:hover {
 		color: #97310e;

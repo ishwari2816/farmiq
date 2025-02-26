@@ -9,4 +9,4 @@ class About extends CI_Controller {
 		$this->load->view('frontend/about/aboutMain');
 		$this->load->view('frontend/about/aboutFooter');
 	}
-}
+}  

@@ -27,7 +27,7 @@
 
     &:not(:disabled):not(:read-only) {
       cursor: pointer;
-    }
+    } 
   }
 
   // Customize the `:focus` state to imitate native WebKit styles.

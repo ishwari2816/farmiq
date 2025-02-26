@@ -206,7 +206,7 @@
           <div class="col-sm-4 col-lg-2 text-center text-sm-start d-flex gap-3 justify-content-center justify-content-md-start">
             <div class="d-flex align-items-center my-3 my-sm-0">
               <a href="index.html">
-                <img src="images/logo.svg" alt="logo" class="img-fluid">
+                <img src="<?php echo base_url('frontend/'); ?>images/logo.jpeg" alt="logo" class="img-fluid">
               </a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -239,17 +239,17 @@
           <div class="col-lg-4">
             <ul class="navbar-nav list-unstyled d-flex flex-row gap-3 gap-lg-5 justify-content-center flex-wrap align-items-center mb-0 fw-bold text-uppercase text-dark">
               <li class="nav-item active">
-                <a href="index.html" class="nav-link">Home</a>
+                <a href="<?php echo base_url('welcome/index'); ?>" class="nav-link">Home</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle pe-3" role="button" id="pages" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
                 <ul class="dropdown-menu border-0 p-3 rounded-0 shadow" aria-labelledby="pages">
-                  <li><a href="index.html" class="dropdown-item">About Us </a></li>
-                  <li><a href="index.html" class="dropdown-item">Shop </a></li>
-                  <li><a href="index.html" class="dropdown-item">Single Product </a></li>
-                  <li><a href="index.html" class="dropdown-item">Cart </a></li>
+                  <li><a href="<?php echo base_url('welcome/about_us'); ?>" class="dropdown-item">About Us </a></li>
+                  <li><a href="<?php echo base_url('welcome/farmer_login'); ?>" class="dropdown-item">Farmer Login </a></li>
+                  <li><a href="<?php echo base_url('admin_panel/dashboard'); ?>" class="dropdown-item">Admin Login</a></li>
+                  <li><a href="<?php echo base_url('admin_panel/auth/register'); ?>" class="dropdown-item">User Register</a></li>
+                  <li><a href="<?php echo base_url('welcome/view_rates'); ?>" class="dropdown-item">View All APMC Rates</a></li>
                   <li><a href="index.html" class="dropdown-item">Checkout </a></li>
-                  <li><a href="index.html" class="dropdown-item">Blog </a></li>
                   <li><a href="index.html" class="dropdown-item">Single Post </a></li>
                   <li><a href="index.html" class="dropdown-item">Styles </a></li>
                   <li><a href="index.html" class="dropdown-item">Contact </a></li>

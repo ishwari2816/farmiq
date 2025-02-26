@@ -28,11 +28,18 @@
             color: black;
             font-weight: bolder;
         }
+
+        h2 {
+            padding-top: 10px;
+            font-weight: bolder;
+        }
     </style>
 </head>
 
 <body>
-    <h2>Market Data Table</h2>
+    <center>
+        <h2>Market Data Table</h2>
+    </center>
     <table>
         <thead>
             <tr>
@@ -51,7 +58,7 @@
         </thead>
         <tbody>
             <?php $i = 1;
-            foreach ($market_content as $index => $market_contents): ?>
+            foreach ($market_content as $index => $market_contents) : ?>
                 <tr>
                     <td><?php echo $i++; ?></td>
                     <td><?php echo $market_contents->createdDate; ?></td>
@@ -68,11 +75,13 @@
             <?php endforeach; ?>
         </tbody>
     </table>
-    <div class="container">
-    <!-- <iframe width="80%" height="100%" src="https://youtu.be/_su63Gdcu-Q?si=YOgk2NzLxQLONnu_" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-        <iframe width="80%" height="80%" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-        </div>
+    <div class="container" style="margin-top: 20px;margin-bottom:20px;">
+        <center>
+            <h2>Demo Video</h2>
+        </center>
+        <iframe width="1200" height="565" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
 </body>
 
 

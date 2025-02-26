@@ -19,7 +19,7 @@
             text-decoration: none;
         }
         /* Make table scrollable on smaller screens */
-        .table-responsive {
+        .table-responsive { 
             overflow-x: auto;
         }
         /* Make rows clickable */

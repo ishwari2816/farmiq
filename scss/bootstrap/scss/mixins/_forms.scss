@@ -12,7 +12,7 @@
     #{if(&, "&", "")}.is-#{$state} {
       @content;
     }
-  }
+  } 
 }
 
 @mixin form-validation-state(

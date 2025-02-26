@@ -11,7 +11,7 @@ class Chatbot extends CI_Controller {
     public function index() {
         // Load the chatbot view
         $this->load->view('frontend/chatboat');
-    }
+    }  
 
     public function send_message() {
         // Get the incoming message

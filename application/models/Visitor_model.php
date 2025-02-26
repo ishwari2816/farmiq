@@ -15,7 +15,7 @@ class Visitor_model extends CI_Model
         $this->db->set('count', 'count+1', FALSE);
         $this->db->where('id', 1);
         $this->db->update('visitor_count');
-    }
+    }   
 
     public function get_count()
     {

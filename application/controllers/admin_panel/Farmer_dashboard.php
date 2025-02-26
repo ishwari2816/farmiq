@@ -12,7 +12,8 @@ class Farmer_Dashboard extends CI_Controller
 		$this->load->model('Visitor_model');
 		if (null === $this->session->userdata('username')) {
 			redirect('admin_panel/auth/login');
-		}
+		}  
+		
 	}
 
 	public function index()
@@ -35,5 +36,29 @@ class Farmer_Dashboard extends CI_Controller
 	{
 		$count = $this->Visitor_model->get_count();
 		echo "Visitor Count: " . $count;
+	}
+
+	public function add()
+	{
+		// $data['states'] = $this->Location_model->get_all_states();
+		// $data['districts'] = [];
+		// $this->load->view('backend/header');
+		$this->load->view('backend/farmers_reg');
+		// $this->load->view('backend/footer');
+	}
+
+	public function save()
+	{
+		$data = array(
+			'product_name' => $this->input->post('productName'),
+			'quantity' =>$this->input->post('quantity'),
+			'address' => $this->input->post('address'),
+			'post_date' => $this->input->post('postDate'),
+			'price' => $this->input->post('price'),
+			'discription' => $this->input->post('Discription'),
+			'image' => $this->input->post('image')
+		);
+		$this->User_model->insert_farmer_data($data);
+		redirect('admin_panel/farmer_dashboard');
 	}
 }

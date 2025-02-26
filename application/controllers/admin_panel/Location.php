@@ -10,7 +10,9 @@ class Location extends CI_Controller
 		$this->load->library('pagination');
         if (null === $this->session->userdata('username')) {
 			redirect('admin_panel/auth/login');
-		}
+		} 
+
+        
     }
 
     public function index($page = 1)
